@@ -1,0 +1,80 @@
+/*=======================================
+Base Element Styles
+=======================================*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #878787;
+}
+
+.main-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-nav, h1 {
+  color: #48525c;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: #AF0917;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: auto;
+}
+
+.main-nav {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.main-nav a {
+  display: block;
+  margin-top: 15px;
+}
+
+.banner {
+  padding-top: 380px;
+  height: 440px;
+  text-align: center;
+  background: grey url('../img/banner.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.arrow {
+  width: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*=======================================
+Media Queries
+=======================================*/
