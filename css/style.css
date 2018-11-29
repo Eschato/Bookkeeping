@@ -34,12 +34,12 @@ li {
 }
 
 a {
-  color: #48525c;
+  color: inherit;
   text-decoration: none;
 }
 
 a:visited {
-  color: #48525c;
+  color: #48525C;
 }
 
 a:hover {
@@ -84,7 +84,7 @@ h1 {
 .copyright {
   height: 80px;
   margin: 0 auto;
-  background-color: #48525c;
+  background-color: #48525C;
   text-align: center;
   padding-top: 30px;
   font-size: .7em;
