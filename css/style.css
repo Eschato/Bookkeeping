@@ -14,9 +14,14 @@ body {
 .main-wrapper {
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
-.main-nav, h1 {
+p {
+  text-align: justify;
+}
+
+.main-nav, h1, h2 {
   color: #48525c;
 }
 
@@ -73,6 +78,15 @@ img.logo {
 
 h1 {
   text-align: center;
+}
+
+.copyright {
+  height: 80px;
+  margin: 0 auto;
+  background-color: #48525c;
+  text-align: center;
+  padding-top: 30px;
+  font-size: .7em;
 }
 
 /*=======================================
