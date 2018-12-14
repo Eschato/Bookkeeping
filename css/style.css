@@ -93,3 +93,25 @@ h1 {
 /*=======================================
 Media Queries
 =======================================*/
+
+@media (min-width: 769px) {
+ img.logo {
+   display: inline-block;
+ }
+ .main-nav {
+   display: inline-block;
+   float: right;
+   margin-top: 30px;
+ }
+
+ .main-header {
+   width: 90%;
+   margin: 0 auto;
+ }
+
+ .main-nav li {
+   display: inline-block;
+   margin-left: 10px;
+ }
+
+}
